@@ -1,0 +1,3 @@
+ Collada 1.4.1 schema run through mono's `xsd` tool.
+ Default ,csproj targets .NET 4.5, however you can just include the single .cs file in your project.
+ 

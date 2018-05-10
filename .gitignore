@@ -1,0 +1,7 @@
+# Ignore VS/Monodevelop Files
+[Bb]in/
+[Oo]bj/
+.vs/ 
+*.user
+*.userprefs
+*.suo
