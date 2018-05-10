@@ -398,7 +398,7 @@ namespace Collada141 {
         
         private string indexField;
         
-        private double[] textField;
+        private string textField;
         
         public fx_clearcolor_common() {
             this.indexField = "0";
@@ -418,7 +418,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -8916,7 +8916,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -8931,7 +8931,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -11396,7 +11396,7 @@ namespace Collada141 {
         
         private ulong countField;
         
-        private string[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="ID")]
@@ -11433,7 +11433,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute(DataType="Name")]
-        public string[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -11458,7 +11458,7 @@ namespace Collada141 {
         
         private ulong countField;
         
-        private bool[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="ID")]
@@ -11495,7 +11495,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public bool[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -11524,7 +11524,7 @@ namespace Collada141 {
         
         private short magnitudeField;
         
-        private double[] textField;
+        private string textField;
         
         public float_array() {
             this.digitsField = ((short)(6));
@@ -11590,7 +11590,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -11612,14 +11612,14 @@ namespace Collada141 {
         private string idField;
         
         private string nameField;
-        
+
         private ulong countField;
         
         private string minInclusiveField;
         
         private string maxInclusiveField;
         
-        private long[] textField;
+        private string textField;
         
         public int_array() {
             this.minInclusiveField = "-2147483648";
@@ -11685,7 +11685,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public long[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -27887,7 +27887,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -27902,7 +27902,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -29125,7 +29125,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -29140,7 +29140,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -29161,7 +29161,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -29176,7 +29176,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -29197,7 +29197,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -29212,7 +29212,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
@@ -29233,7 +29233,7 @@ namespace Collada141 {
         
         private string sidField;
         
-        private double[] textField;
+        private string textField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="NCName")]
@@ -29248,7 +29248,7 @@ namespace Collada141 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
-        public double[] Text {
+        public string Text {
             get {
                 return this.textField;
             }
